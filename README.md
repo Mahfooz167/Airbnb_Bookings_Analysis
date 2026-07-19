@@ -1,94 +1,135 @@
-# Airbnb_Bookings_Analysis---Capstone_Project-by-Md-Mahfooz-Alam-Ansari
-![Airbnb](https://www.theforage.com/blog/wp-content/uploads/2023/01/working-at-airbnb.jpg)
+# Airbnb Booking Analysis \| Exploratory Data Analysis (EDA)
 
-![Image 2](https://cloudfront-ap-southeast-2.images.arcpublishing.com/nzme/ZRNBMN4P2ZFDFILHUULRK6PMUI.jpg)
-
-## About Airbnb
-
-Airbnb, Inc. is an American company that operates an online marketplace for lodging, primarily homestays for vacation rentals, and tourism activities. Headquartered in San Francisco, California, the platform is accessible via the website and mobile app. Since its inception in 2008, guests and hosts have utilized Airbnb to broaden travel possibilities and offer a more unique, personalized way of experiencing the world. Today, Airbnb has become a one-of-a-kind service, widely used and recognized globally.
+![Tableau Dashboard](tableau_dashboard.png)
 
 ## Author
 
 **Md Mahfooz Alam Ansari**
 
-Individually completed with dedication.
+Completed as an end-to-end Exploratory Data Analysis (EDA) project using
+**Python, Tableau, and Microsoft Excel**.
 
 ## Project Overview
 
-Data analysis on millions of listings provided through Airbnb is a crucial factor for the company. These millions of listings generate a vast amount of data, which can be analyzed and used for various purposes, including enhancing security measures, making informed business decisions, understanding customer and host behavior and performance on the platform, guiding marketing initiatives, and implementing innovative additional services.
+This project analyzes the Airbnb NYC 2019 dataset using Python,
+Microsoft Excel, and Tableau to uncover insights into listings, hosts,
+pricing, reviews, room types, and neighbourhoods.
 
-This dataset, focusing on Airbnb listings in New York City for the year 2019, contains around 49,000 observations with 16 columns. The data is a mix of categorical and numeric values, providing a rich source of information for exploration and analysis.
+## Dataset Information
+
+-   Dataset: Airbnb NYC 2019
+-   Records: \~49,000
+-   Features: 16
+-   Domain: Hospitality & Tourism
+
+## Tech Stack
+
+-   Python
+-   Pandas
+-   NumPy
+-   Matplotlib
+-   Microsoft Excel
+-   Tableau
+-   Google Colab
+-   GitHub
 
 ## Key Objectives
 
-Explore and analyze the data to uncover key insights, including but not limited to:
+1.  Learn about different hosts and neighbourhoods.
+2.  Explore prices, reviews, and locations.
+3.  Identify the busiest hosts.
+4.  Compare traffic across neighbourhoods.
 
-1. **What can we learn about different hosts and areas?**
-   - Identify notable hosts and understand their influence in different neighborhoods.
+## Project Workflow
 
-2. **What can we learn from predictions? (ex: locations, prices, reviews, etc)**
-   - Explore the relationship between neighborhood areas, prices, and the number of reviews.
-   - Identify patterns and correlations that contribute to predictions.
+1.  Data Collection
+2.  Data Cleaning
+3.  Exploratory Data Analysis
+4.  Data Visualization
+5.  Business Insights
+6.  Tableau Dashboard
+7.  Excel Pivot Analysis
 
-3. **Which hosts are the busiest and why?**
-   - Identify the busiest hosts based on factors such as the number of reviews and room types.
-   - Understand the characteristics that contribute to host busyness.
+## Project Visualizations
 
-4. **Is there any noticeable difference in traffic among different areas, and what could be the reason for it?**
-   - Analyze traffic patterns in terms of the minimum number of nights stayed for different room types and neighborhoods.
-   - Understand guest preferences and potential reasons for variations in traffic.
+### Price vs Number of Reviews
+
+![Price](price_vs_reviews.png)
+
+### Top 10 Busiest Hosts
+
+![Hosts](top_10_busiest_hosts.png)
+
+### Tableau Dashboard
+
+![Dashboard](tableau_dashboard.png)
+
+### Excel Analysis -- Host Listings by Neighbourhood
+
+![Excel1](excel_host_listings_by_neighbourhood.png)
+
+### Excel Analysis -- Maximum Reviews by Neighbourhood
+
+![Excel2](maximum_reviews_by_neighbourhood.png)
+
+### Excel Analysis -- Maximum Price by Room Type
+
+![Excel3](maximum_price_by_room_type.png)
+
+### Excel Analysis -- Maximum Minimum Nights
+
+![Excel4](maximum_minimum_nights.png)
+
+## Business Insights
+
+-   Manhattan and Brooklyn have the highest listing concentration.
+-   Budget-friendly listings receive more reviews.
+-   Entire homes and private rooms dominate demand.
+-   Tableau and Excel complement Python EDA.
 
 ## Notebooks and Tools
 
 ### Notebooks
 
-1. [Google Drive Import](https://colab.research.google.com/drive/1zRZv0eqaY94D4CEpTICRqKSlMH2wxm2E): Mounting Google Drive to access the dataset and importing it for initial exploration.
+1.  [Google Drive
+    Import](https://colab.research.google.com/drive/1zRZv0eqaY94D4CEpTICRqKSlMH2wxm2E)
 
 ### Data Analysis Tools
 
-- **Python:**
-  - Utilizing libraries such as numpy, pandas, and matplotlib for data analysis and visualization.
-
-- **Tableau:**
-  - Explore interactive visualizations on the [Tableau Dashboard](https://public.tableau.com/views/AirbnbTableau_16884627478810/Dashboard4?:language=en-US&:display_count=n&:origin=viz_share_link).
-
-- **Microsoft Excel:**
-  - Additional insights and visualizations available in the [Excel Analysis](https://1drv.ms/x/s!AiRYdqGxH35EgWc-2QktrV3r_slq?e=d25bbq).
+-   **Python**: numpy, pandas, matplotlib.
+-   **Tableau**:
+    https://public.tableau.com/views/AirbnbTableau_16884627478810/Dashboard4?:language=en-US&:display_count=n&:origin=viz_share_link
+-   **Microsoft Excel**:
+    https://1drv.ms/x/s!AiRYdqGxH35EgWc-2QktrV3r_slq?e=d25bbq
 
 ## Conclusions
 
-1. **Hosts and Areas:**
-   - Notable hosts such as Sonder (NYC), Blueground, Michael, David play a significant role in offering diverse accommodation options in different neighborhoods.
-
-2. **Predictions:**
-   - Popular areas with a higher number of reviews may indicate tourist hotspots.
-   - Lower-priced listings attract more reviews, suggesting a preference for budget-friendly options.
-
-3. **Busiest Hosts:**
-   - Hosts such as Dona, Ji, Maya, Carol, Danielle are the busiest due to their offerings of Entire home/apartment or Private room types.
-
-4. **Traffic Patterns:**
-   - Preferences for Entire home/apartment or Private room types in Manhattan, Brooklyn, and Queens.
-   - Guests tend to stay longer in such listings, indicating potential preferences for more extensive stays.
+-   Manhattan leads in listings.
+-   Lower-priced properties attract more reviews.
+-   Python, Excel, and Tableau together provide comprehensive analysis.
 
 ## Instructions for Running the Code
 
-1. Clone the repository to your local machine.
-2. Access the Jupyter Notebooks in the 'notebooks' directory.
-3. Execute the code cells to run the analysis.
+1.  Clone the repository.
+2.  Install dependencies.
+3.  Open the notebook.
+4.  Run all cells.
 
 ## Dependencies
 
-- numpy
-- pandas
-- matplotlib
-- [Tableau](public.tableau.com/views/AirbnbTableau_16884627478810/Dashboard4?:language=en-US&:display_count=n&:origin=viz_share_link)
-- [Microsoft Excel](https://1drv.ms/x/s!AiRYdqGxH35EgWc-2QktrV3r_slq?e=d25bbq)
+-   numpy
+-   pandas
+-   matplotlib
+-   [Tableau](public.tableau.com/views/AirbnbTableau_16884627478810/Dashboard4?:language=en-US&:display_count=n&:origin=viz_share_link)
+-   [Microsoft
+    Excel](https://1drv.ms/x/s!AiRYdqGxH35EgWc-2QktrV3r_slq?e=d25bbq)
 
 ## How to Contribute
 
-If you find any issues or have suggestions for improvement, please contribute by creating an issue or submitting a pull request.
+Create an issue or submit a pull request.
 
 ## License
 
-This project is licensed under the [Md Mahfooz Alam Ansari] - see the (https://github.com/Mahfooz167/Airbnb_Bookings_Analysis---Capstone_Project-by-Md-Mahfooz-Alam-Ansari) file for details.
+This project is licensed under the MIT License. See the LICENSE file for
+details.
+
