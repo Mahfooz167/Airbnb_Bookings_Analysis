@@ -119,8 +119,7 @@ pricing, reviews, room types, and neighbourhoods.
 
 -   numpy
 -   pandas
--   matplotlib
--  [Tableau](public.tableau.com/views/AirbnbTableau_16884627478810/Dashboard4?:language=en-US&:display_count=n&:origin=viz_share_link)
+-   matplotlib- [Tableau](https://public.tableau.com/views/AirbnbTableau_16884627478810/Dashboard4?:language=en-US&:display_count=n&:origin=viz_share_link)
 -   [Microsoft
     Excel](https://1drv.ms/x/s!AiRYdqGxH35EgWc-2QktrV3r_slq?e=d25bbq)
 
